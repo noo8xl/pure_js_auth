@@ -1,0 +1,32 @@
+{
+  "name": "ex_parser",
+  "version": "1.0.0",
+  "description": "exchange forms parser api. working both with wallet module as API.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^10.2.0",
+    "mongodb": "^6.3.0",
+    "nodemailer": "^6.9.7",
+    "selenium-webdriver": "^4.15.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "nodemon": "^3.0.1",
+    "redis": "^4.6.10"
+  }
+}
